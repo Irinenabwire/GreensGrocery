@@ -1,0 +1,45 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-card {
+ 
+  padding: 4%;
+  flex: 1 12%;
+} 
+
+.product-info {
+  margin-top: auto;
+}
+
+.add-to-cart-btn {
+  background:rgb(192, 74, 74);
+  border: none;
+  font-display: #d5dbd5;
+}
+
+.photo {
+  height: 20vh;
+  width: 20vh;
+}
+body{
+  background-color: white;
+  text-align: center;
+}
+.typeB{
+  display: flex;
+  flex-wrap: wrap;
+  height: 30vh;
+  width: 30vh;
+  text-align: center;
+}
+h3{
+  text-align: center;
+  
+}
+.card{
+  height:20vh;
+  width:10vh;
+  margin-left: 30vh;
+  margin-right:30vh;
+}
