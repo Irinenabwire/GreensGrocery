@@ -1,12 +1,13 @@
 .cards {
   padding: 4rem;
-  background: #fff;
+  margin-top: 70vh;
 }
 
 h1 {
   text-align: center;
   color:#EA2027;
   margin-top:50vh;
+  
 }
 
 .cards__container {
@@ -16,6 +17,7 @@ h1 {
   max-width: 1120px;
   width: 90%;
   margin: 0 auto;
+  
 }
 
 .cards__wrapper {
@@ -32,6 +34,7 @@ h1 {
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
+  background-color:#EA2027;
 }
 
 .cards__item__link {
@@ -96,7 +99,7 @@ h1 {
 }
 
 .cards__item__text {
-  color: #EA2027;
+  color: fff;
   font-size: 18px;
   line-height: 24px;
 }

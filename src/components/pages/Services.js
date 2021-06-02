@@ -21,26 +21,26 @@ export default function Services() {
       <div className="row text-center">
         <div className="col-md-4">
           <span className="fa-stack fa-4x">
-            <i className="fa fa-circle fa-stack-2x text-primary"></i>
-            <i className="fa fa-truck fa-stack-1x fa-inverse"></i>
+            <i className="fa fa-circle fa-stack-2x text-warning"></i>
+            <i className="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 className="service-heading">Free Shipping</h4>
+          <h4 className="service-heading">E-commerce payment</h4>
           <p className="text-muted">You get free shipping if you buy good worth 300,at destination of your choice .</p>
         </div>
         <div className="col-md-4">
           <span className="fa-stack fa-4x">
-            <i className="fa fa-circle fa-stack-2x text-primary"></i>
-            <i className="fa fa-gift fa-stack-1x fa-inverse"></i>
+            <i className="fa fa-circle fa-stack-2x text-warning"></i>
+            <i className="fa fa-google-wallet fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 className="service-heading">Gift Voucher</h4>
+          <h4 className="service-heading">Bill payment</h4>
           <p className="text-muted">If you refer a customer to come to our store or to buy something, you will stand a chance to win a gift</p>
         </div>
         <div className="col-md-4">
           <span className="fa-stack fa-4x">
-            <i className="fa fa-circle fa-stack-2x text-primary"></i>
-            <i className="fa fa-cutlery fa-stack-1x fa-inverse"></i>
+            <i className="fa fa-circle fa-stack-2x text-warning"></i>
+            <i className="fa fa-rebel fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 className="service-heading">First Delivery</h4>
+          <h4 className="service-heading">Fee payment</h4>
           <p className="text-muted">Delivery will take less than 24 hours to rech your destination.</p>
         </div>
       </div>

@@ -9,7 +9,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-      Join the Best Online Grocery  newsletter to receive our best deals
+      Join the Best Online payment  newsletter to receive our best deals
         </p>
         <p className='footer-subscription-text'>
          Not interested you can Unsubscribe
@@ -31,14 +31,14 @@ function Footer() {
           <div class='footer-link-items'>
             <h2>About Us</h2>
             <Link to='/sign-up'>How it works</Link>
-            <Link to='/'>Our Products</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Team</Link>
+            <Link to='/'>Services</Link>
+            <Link to='/'>Bills</Link>
+            <Link to='/'>Our products</Link>
             <Link to='/'>Contact us</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
+            <Link to='/'>Customer Care</Link>
             <Link to='/'>Support</Link>
             <Link to='/'>Sales</Link>
             <Link to='/'>General inquiries</Link>
@@ -48,9 +48,9 @@ function Footer() {
           <div class='footer-link-items'>
             <h2>Quick Help</h2>
             <Link to='/'>Customer Service</Link>
-            <Link to='/'>Order Status</Link>
-            <Link to='/'>Delivery Method</Link>
-            <Link to='/'>Payment methiods</Link>
+            <Link to='/'>Payment error</Link>
+            <Link to='/'>General question</Link>
+            <Link to='/'>Payment methods</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
@@ -65,11 +65,11 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
           <Link to='/' className='social' >
-       GreensKiosk
+     ZEGETECH
             <FaSpa className='FaSpar' />
             </Link>
           </div>
-          <small class='website-rights'>GreensKiosk © 2021</small>
+          <small class='website-rights'>Zegetech © 2021</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'

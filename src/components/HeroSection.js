@@ -3,27 +3,19 @@ import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
 import { Link } from 'react-router-dom';
-import Carousel from 'react-bootstrap/Carousel' 
+
 
 function HeroSection() {
   return (
     <div className='hero-container'>
       
-      <video src='/videos/video-1.mp4' autoPlay loop muted />
-      <h1>Welcome to GreensKiosk</h1>
-      <p>We sell variety of groceries products</p>
+     
+      <h1>Welcome to online Payment site</h1>
+      <p>You can register and send money to each other or pay for your goods and services.
+</p>
     
       <div className='hero-btns'>
-      <Link to="/Products.js" className="btn btn-primary">
-        <Button
-        href='Cards.js'
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
-        >
-       View Products
-        </Button>
-        </Link>
+      
         <Link to="/Products.js" className="btn btn-primary">
         <Button
           href='Products.js'
@@ -32,10 +24,11 @@ function HeroSection() {
           buttonSize='btn--large'
           onClick="location.href = 'Products.js'"
         >
-          order now <i className='fab fa-first-order></i>' />
+          Read more 
         </Button>
         </Link>
       </div>
+  
     </div>
   );
 }

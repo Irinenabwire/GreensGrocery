@@ -6,7 +6,7 @@ import '../Button.css';
 
 import loginImg from "../../login.svg";
 
-class FormValidator extends React.Component{
+class SignIn extends React.Component{
   constructor(props) {
     super(props);
   }
@@ -28,30 +28,14 @@ class FormValidator extends React.Component{
               <label htmlFor="E-wallet pin">E-wallet pin *</label>
               <input type="text" name="E-wallet pin" placeholder="E-wallet pin" />
             </div>
-            <div className="form-group">
-              <label htmlFor="Email">Email *</label>
-              <input type="text" name="Email" placeholder="Email" />
-            </div>
-            <div className="form-group">
-              <label htmlFor="National Id/Passport">National Id/Passport *</label>
-              <input type="text" name="National Id/Passport" placeholder="National Id/Passport" />
-            </div>
-           
-              
-           
-
+            
             
           </div>
         </div>
         <div className="footer">
-        <Link to='/sign-in' className='btn-mobile'>
-          <button  type="button" className="btn">
-          SignUp
-          </button>
-    </Link>
-          
-          or
-          <Link to='/sign-in' className='btn-mobile'>
+       
+        
+          <Link to='/' className='btn-mobile'>
           <button  type="button" className="btn">
         Sign In
           </button>
@@ -67,5 +51,5 @@ class FormValidator extends React.Component{
 
 
 
-export default FormValidator;
+export default SignIn;
 

@@ -24,6 +24,11 @@
   color: #fff;
   font-size: 100px;
 }
+.service {
+  text-align: center;
+  color: #000;
+  font-size: 40px;
+}
 
 .products {
   background-image: url('/images/img-1.jpg');

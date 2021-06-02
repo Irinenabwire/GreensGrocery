@@ -4,9 +4,10 @@ import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Services from './components/pages/Services';
-import Products from './components/pages/Products';
+import Bills from './components/pages/Bills';
+import About from './components/pages/About';
 import SignUp from './components/pages/SignUp';
-import Cart from './components/pages/Cart';
+import SignIn from './components/pages/SignIn';
 
 
 function App() {
@@ -18,9 +19,11 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/services' component={Services} />
-          <Route path='/products' component={Products} />
+          <Route path='/about' component={About} />
+          <Route path='/bills' component={Bills} />
           <Route path='/sign-up' component={SignUp} />
-          <Route path='/cart' component={Cart} />
+          <Route path='/sign-in' component={SignIn} />
+          
 
          
           
